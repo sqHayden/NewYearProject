@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/cloud"
+        android:icon="@mipmap/cloud"
+        android:title="@string/cloud"
+        app:showAsAction="always">
+    </item>
+    <item android:id="@+id/download"
+        android:icon="@mipmap/download"
+        android:title="@string/download"
+        app:showAsAction="always">
+    </item>
+    <item android:id="@+id/settings"
+        android:icon="@mipmap/settings"
+        android:title="@string/settings"
+        app:showAsAction="never">
+    </item>
+    <item android:id="@+id/delete"
+        android:title="@string/delete"
+        android:icon="@mipmap/delete"
+        app:showAsAction="always">
+    </item>
+</menu>
